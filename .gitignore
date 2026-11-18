@@ -1,0 +1,45 @@
+# 密钥和本地配置
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
+
+# 模型和大文件
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.mp4
+*.wav
+*.zip
+*.tar
+*.tar.gz
+
+# 运行产物（放服务器，不进仓库）
+*.db
+*.db.prev
+*.sqlite
+data/
+runs/
+cards_raw/
+staging/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 编辑器和系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
